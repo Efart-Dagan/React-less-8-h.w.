@@ -1,0 +1,22 @@
+.entireBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.entireGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.massages {
+    margin-top: 0;
+}
